@@ -1,0 +1,114 @@
+/* public/css/app.css */
+
+/* Reset and Basic Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link {
+    color: #fff;
+    font-weight: 500;
+}
+
+.navbar .nav-link:hover {
+    color: #e2e6ea;
+    text-decoration: none;
+}
+
+/* Container */
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Heading Styles */
+h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+/* Alert Styles */
+.alert {
+    padding: 15px;
+    background-color: #28a745;
+    color: white;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.alert-success {
+    background-color: #28a745;
+}
+
+.alert a {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table th,
+table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+table th {
+    background-color: #007bff;
+    color: #fff;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Button Styles */
+a, button {
+    display: inline-block;
+    font-weight: 500;
+    color: #007bff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover, button:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Footer */
+footer {
+    background-color: #f8f9fa;
+    color: #6c757d;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 0.9rem;
+    border-top: 1px solid #e9ecef;
+}
